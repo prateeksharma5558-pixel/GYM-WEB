@@ -1,40 +1,17 @@
-body {
-    background-image: url("https://previews.123rf.com/images/h4ckermodify/h4ckermodify2304/h4ckermodify230400187/201879026-gym-or-fitness-with-sunset-light-background-for-web-design-template-website.jpg");
-    
-     margin: 0;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
-}
-
-.title {
-    text-align:center;
-}
-.welcome {
-    text-align: center;
-}
-.signin {
- text-align: center;
-}
-
-.signin-options {
-    text-align: center;
-}
-
+/* Reset default margins */
 body {
   margin: 0;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
   font-family: 'Poppins', sans-serif;
-  background: url("image.png") no-repeat center center/cover;
+  background: url("https://t3.ftcdn.net/jpg/06/51/49/90/360_F_651499051_tQQimfoC1v8z8cD7m0mQjXElxJrMFppt.jpg") no-repeat center center/cover;
 }
 
+/* Main login card */
 .login-box {
-  background: rgba(0, 0, 0, 0.7);   /* dark semi-transparent card */
+  background: rgba(0, 0, 0, 0.7);   /* dark semi-transparent background */
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -43,6 +20,7 @@ body {
   color: #fff;
 }
 
+/* Headings */
 .login-box h2 {
   margin-bottom: 10px;
   font-size: 24px;
@@ -55,6 +33,42 @@ body {
   color: #ccc;
 }
 
+/* Top buttons (Log-in / Register) */
+.top-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn-login, .btn-register {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-login {
+  background: #ff6600;   /* orange accent */
+  color: #fff;
+}
+
+.btn-register {
+  background: #444;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background: #e65c00;
+}
+
+.btn-register:hover {
+  background: #333;
+}
+
+/* Input fields */
 .login-box input {
   width: 100%;
   padding: 12px;
@@ -64,11 +78,12 @@ body {
   outline: none;
 }
 
-.login-box button {
+/* Sign In button */
+.login-box button[type="submit"] {
   width: 100%;
   padding: 12px;
   margin-top: 15px;
-  background: #ff6600;   /* orange accent */
+  background: #ff6600;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -76,19 +91,17 @@ body {
   transition: 0.3s;
 }
 
-.login-box button:hover {
+.login-box button[type="submit"]:hover {
   background: #e65c00;
 }
 
+/* Forgot password link */
+.login-box a {
+  color: #ff6600;
+  text-decoration: none;
+  font-size: 12px;
+}
 
-
-
-/* body {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
-  background: url("image.png") no-repeat center center/cover;
-} */
+.login-box a:hover {
+  text-decoration: underline;
+}
