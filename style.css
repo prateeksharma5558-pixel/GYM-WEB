@@ -1,3 +1,14 @@
+body {
+    background-image: url("https://previews.123rf.com/images/h4ckermodify/h4ckermodify2304/h4ckermodify230400187/201879026-gym-or-fitness-with-sunset-light-background-for-web-design-template-website.jpg");
+    
+     margin: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
 .title {
     text-align:center;
 }
@@ -11,3 +22,73 @@
 .signin-options {
     text-align: center;
 }
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background: url("image.png") no-repeat center center/cover;
+}
+
+.login-box {
+  background: rgba(0, 0, 0, 0.7);   /* dark semi-transparent card */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  width: 320px;
+  text-align: center;
+  color: #fff;
+}
+
+.login-box h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-box p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #ff6600;   /* orange accent */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #e65c00;
+}
+
+
+
+
+/* body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background: url("image.png") no-repeat center center/cover;
+} */
